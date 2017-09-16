@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Ac_cb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="com.coto.cesar.ejemplos.CheckboxActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <CheckBox
+                android:id="@+id/cb_Acb_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/red"
+                android:textColor="@color/cardview_dark_background"
+                app:buttonTint="@color/cardview_dark_background" />
+
+            <CheckBox
+                android:id="@+id/cb_Acb_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/green"
+                android:textColor="@color/cardview_dark_background"
+                app:buttonTint="@color/cardview_dark_background" />
+
+            <CheckBox
+                android:id="@+id/cb_Acb_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/blue"
+                android:textColor="@color/cardview_dark_background"
+                app:buttonTint="@color/cardview_dark_background" />
+
+            <Button
+                android:id="@+id/btn_Acb_done"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:text="@string/btn_done"
+                android:textColor="@color/texto_estilo1"
+                tools:targetApi="lollipop" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

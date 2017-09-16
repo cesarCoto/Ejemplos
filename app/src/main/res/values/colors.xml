@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303030</color>
+    <color name="colorPrimaryDark">#6e000000</color>
+    <color name="colorAccent">#ec212f</color>
+    <color name="bg">#D6D6D6</color>
+    <color name="texto_estilo1">#ff007b</color>
+    <color name="cb_style_color">#000000</color>
+</resources>

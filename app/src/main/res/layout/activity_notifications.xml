@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fadeScrollbars="false"
+    android:scrollbars="vertical"
+    tools:context="com.coto.cesar.ejemplos.NotificationsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_simple_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:textColor="@color/texto_estilo1"
+                android:text="@string/btn_title_simple_notification"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_bigtext_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:textColor="@color/texto_estilo1"
+                android:text="@string/btn_title_big_style_notification"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_image_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:textColor="@color/texto_estilo1"
+                android:text="@string/btn_title_image_notification"
+                tools:targetApi="lollipop" />
+
+            <Button
+                android:id="@+id/btn_menssage_notification"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/cardview_light_background"
+                android:textColor="@color/texto_estilo1"
+                android:text="@string/btn_title_menssage_notification"
+                tools:targetApi="lollipop" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

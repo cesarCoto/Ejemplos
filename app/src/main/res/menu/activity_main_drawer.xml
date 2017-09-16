@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_checkbox"
+            android:icon="@drawable/ic_check_box_black_24dp"
+            android:title="@string/nav_title_checkbox"/>
+        <item
+            android:id="@+id/nav_control_spinner"
+            android:icon="@drawable/ic_arrow_drop_up_black_24dp"
+            android:title="@string/nav_title_control_spinner" />
+        <item
+            android:id="@+id/nav_radio_button"
+            android:icon="@drawable/ic_radio_button_checked_black_24dp"
+            android:title="@string/nav_title_radio_button" />
+        <item
+            android:id="@+id/nav_images"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/nav_title_images" />
+
+        <item
+            android:id="@+id/nav_list_view"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="@string/nav_title_listview" />
+
+        <item
+            android:id="@+id/nav_logging"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/nav_title_logging" />
+
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_keyboard_voice_black_24dp"
+            android:title="@string/nav_title_audio" />
+        <item
+        android:id="@+id/nav_web_view"
+        android:icon="@drawable/ic_web_black_24dp"
+        android:title="@string/nav_title_webview"/>
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_line_weight_black_24dp"
+            android:title="@string/nav_title_notifications"/>
+
+        <item
+            android:id="@+id/nav_cardview"
+            android:icon="@drawable/ic_art_track_black_24dp"
+            android:title="@string/nav_title_cardview"/>
+
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

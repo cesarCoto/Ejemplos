@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Ejemplos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="nav_title_checkbox">CheckBox</string>
+    <string name="nav_title_control_spinner">Control Spinner</string>
+    <string name="nav_title_radio_button">Radio Button</string>
+    <string name="nav_title_images">Images</string>
+    <string name="nav_title_listview">ListView</string>
+    <string name="nav_title_logging">Logging</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <string name="nav_title_media_recorder">Media recorder</string>
+    <string name="nav_title_sounds">Sounds</string>
+    <string name="nav_title_android_player">Android player</string>
+    <string name="nav_title_audio">Audio</string>
+    <string name="nav_title_webview">WebView</string>
+    <string name="nav_title_audio_online">Audio online</string>
+    <string name="text_search_a_web_page">Search a Web page</string>
+    <string name="text_example1_https_example_com">https://example.com</string>
+    <string name="btn_title_go_to_makerobot">Go to MakeRobot</string>
+    <string name="btn_title_search">Search</string>
+    <string name="web_example_com">example.com</string>
+    <string name="btn_title_launch_maps">Launch Maps</string>
+    <string name="nav_title_notifications">Notifications</string>
+    <string name="correo_developer_cesar_cotobvb_gmail_com">cesar.cotobvb@gmail.com</string>
+    <string name="title_nav_examples_android">Examples Android</string>
+    <string name="hello">Hello</string>
+    <string name="nav_title_cardview">CardView</string>
+    <string name="btn_title_simple_notification">Simple notification</string>
+    <string name="btn_title_big_style_notification">Big Style notification</string>
+    <string name="btn_title_image_notification">Image Notification</string>
+    <string name="btn_title_menssage_notification">Menssage notification</string>
+    <string name="text_example_notification">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent in enim euismod, eleifend diam vel, aliquam nulla. Donec ut cursus lectus. Cras ultricies eros ac erat accumsan, quis gravida nulla malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nisi enim, ultrices vitae tincidunt et, varius quis ipsum. Sed non cursus lectus, a laoreet nisi. Praesent eget suscipit arcu, ac posuere est. Nullam quis eleifend est.</string>
+    <string name="text_notification_simple">This is a BigStyle notification</string>
+    <string name="Notification_creador">By:Cesar Coto</string>
+    <string name="simple_notification_content">Hello this is a simple notification</string>
+    <string name="title_simple_notification">Simple Notification</string>
+    <string name="bigstyle_notification_title">BigStyle Notification</string>
+    <string name="title_image_notification">Image notification</string>
+    <string name="intruction_Cb_tv">Enter name, age and sex</string>
+    <string name="et_instruction_name">Name</string>
+    <string name="et_instruction_age">Age</string>
+    <string name="cb_male">Male</string>
+    <string name="btn_done">Done</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="red">Red</string>
+    <string name="cb_female">Female</string>
+</resources>

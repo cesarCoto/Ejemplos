@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    tools:context="com.coto.cesar.ejemplos.WebviewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textv_info_web"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/text_search_a_web_page"
+                android:textAlignment="center"
+                android:textColor="@color/texto_estilo1" />
+
+            <EditText
+                android:id="@+id/et_web_example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/text_example1_https_example_com"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/et_web_example2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:ems="10"
+                android:hint="@string/web_example_com"
+                android:inputType="textPersonName"
+                android:textColorLink="@color/texto_estilo1" />
+
+            <Button
+                android:id="@+id/btn_web_buscar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/btn_title_search"
+                android:textColor="@color/bg" />
+
+            <Button
+                android:id="@+id/btn_web_ir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/btn_title_go_to_makerobot"
+                android:textColor="@color/texto_estilo1" />
+
+            <Button
+                android:id="@+id/btn_maps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:text="@string/btn_title_launch_maps"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

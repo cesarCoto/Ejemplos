@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_media_recorder"
+            android:icon="@drawable/ic_album_black_24dp"
+            android:title="@string/nav_title_media_recorder" />
+        <item
+            android:id="@+id/nav_sonidos"
+            android:icon="@drawable/ic_volume_down_black_24dp"
+            android:title="@string/nav_title_sounds" />
+        <item
+            android:id="@+id/nav_android_player"
+            android:icon="@drawable/ic_music_video_black_24dp"
+            android:title="@string/nav_title_android_player" />
+        <item
+            android:id="@+id/nav_audio_online"
+            android:icon="@drawable/ic_cloud_black_24dp"
+            android:title="@string/nav_title_audio_online" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
