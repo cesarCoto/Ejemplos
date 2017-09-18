@@ -137,6 +137,10 @@ public class MainActivity extends AppCompatActivity
             //inicar actividad CardView
             Intent Accardview = new Intent(this,CardViewActivity.class);
             startActivity(Accardview);
+        }else if (id == R.id.nav_database) {
+            //inicar actividad Database
+            Intent Acdatabase = new Intent(this,DatabaseActivity.class);
+            startActivity(Acdatabase);
         }else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

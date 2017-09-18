@@ -71,12 +71,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
-        <activity android:name=".RadioButtonActivity"
+        <activity
+            android:name=".RadioButtonActivity"
             android:label="@string/nav_title_radio_button"
-            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity"
-            >
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".DatabaseActivity"
+            android:label="@string/title_activity_database"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />

@@ -48,6 +48,11 @@
             android:icon="@drawable/ic_art_track_black_24dp"
             android:title="@string/nav_title_cardview"/>
 
+        <item
+            android:id="@+id/nav_database"
+            android:icon="@drawable/ic_dns_black_24dp"
+            android:title="@string/nav_title_database"/>
+
 
     </group>
 

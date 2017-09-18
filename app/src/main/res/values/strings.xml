@@ -49,4 +49,7 @@
     <string name="green">Green</string>
     <string name="red">Red</string>
     <string name="cb_female">Female</string>
+    <string name="nav_title_database">Database</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="title_code">code</string>
 </resources>
