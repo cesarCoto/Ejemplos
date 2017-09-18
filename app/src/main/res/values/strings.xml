@@ -63,4 +63,5 @@
     <string name="btn_title_buscar_por_nombre">Buscar por nombre</string>
     <string name="btn_title_editar">Editar</string>
     <string name="btn_title_buscar_por_codigo">Buscar por codigo</string>
+    <string name="title_activity_logging">LoggingActivity</string>
 </resources>

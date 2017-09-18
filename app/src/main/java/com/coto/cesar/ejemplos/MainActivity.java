@@ -117,6 +117,8 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_logging) {
             //inicar actividad logging
+            Intent logging = new Intent(this,LoggingActivity.class);
+            startActivity(logging);
 
         } else if (id == R.id.nav_audio) {
             //inicar actividad audio
