@@ -139,8 +139,8 @@ public class MainActivity extends AppCompatActivity
             startActivity(Accardview);
         }else if (id == R.id.nav_database) {
             //inicar actividad Database
-            Intent Acdatabase = new Intent(this,DatabaseActivity.class);
-            startActivity(Acdatabase);
+            Intent databse = new Intent(this,DatabaseActivity.class);
+            startActivity(databse);
         }else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {

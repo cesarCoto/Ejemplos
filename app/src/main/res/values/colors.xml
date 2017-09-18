@@ -6,4 +6,9 @@
     <color name="bg">#D6D6D6</color>
     <color name="texto_estilo1">#ff007b</color>
     <color name="cb_style_color">#000000</color>
+    <color name="borrar">#ef3131</color>
+    <color name="buscar_por_codigo">#2fd4d7</color>
+    <color name="buscar_por_nombre">#3c84dc</color>
+    <color name="agregar">#40d65e</color>
+    <color name="editar">#ad37ca</color>
 </resources>

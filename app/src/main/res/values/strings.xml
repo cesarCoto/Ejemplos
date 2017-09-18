@@ -52,4 +52,15 @@
     <string name="nav_title_database">Database</string>
     <string name="title_activity_database">DatabaseActivity</string>
     <string name="title_code">code</string>
+    <string name="text_title_Acdatabase_code">Ingresa el codigo del producto</string>
+    <string name="code_Acdatabse_01">01</string>
+    <string name="text_title_Acdatabase_name_produc">Ingresa el nombre del producto</string>
+    <string name="et_title_Acdatabase_example">Example</string>
+    <string name="text_title_Acdatabe_description">Ingresa una pequeña descripccion del producto</string>
+    <string name="et_tilte_Acdatabase_description">this is a example</string>
+    <string name="btn_title_agregar">Agregar</string>
+    <string name="bnt_title_eliminar">Eliminar</string>
+    <string name="btn_title_buscar_por_nombre">Buscar por nombre</string>
+    <string name="btn_title_editar">Editar</string>
+    <string name="btn_title_buscar_por_codigo">Buscar por codigo</string>
 </resources>
